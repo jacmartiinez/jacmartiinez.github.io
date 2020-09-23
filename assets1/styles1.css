@@ -1,0 +1,93 @@
+body {
+  font-family: obliqua, sans-serif;
+  background-color: #F2DDDA;
+  margin: 0 auto;
+  padding: 0;
+  width: 1024px;
+  height: 768px;
+}
+
+body {
+  background-color: #cccccc;
+  background-image: linear-gradient(-90deg, #F2DDDA, #FFFFFF, #F2DDDA, #FFFFFF, #F2DDDA);
+}
+
+h1 {
+  color: #071554;
+  font-family: obliqua,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  padding:0;
+  margin-top: 100px;
+  margin-bottom: -300px;
+}
+
+h2 {
+  color: #071554;
+  font-family: obliqua,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  padding:0;
+  margin-top: 300px;
+  margin-bottom: -300px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  top: 458px;
+  font-size: 25px;
+  right: -300px;
+  position: relative;
+}
+
+.link-1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-color: #FFFFFF;
+  border-style: outset;
+  background-color: #2A1F47;
+}
+
+.link-2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-color: #FFFFFF;
+  border-style: outset;
+  background-color: #2A1F47;
+}
+
+.link-3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-color: #FFFFFF;
+  border-style: outset;
+  background-color: #2A1F47;
+}
+
+.link-4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-color: #FFFFFF;
+  border-style: outset;
+  background-color: #2A1F47;
+}
+
+.flower-image {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 400px;
+}

@@ -1,0 +1,57 @@
+/* This is the stylesheet where you will be putting your answers for Exercise 4: Positioning Objects */
+
+/* PROPERTIES you will be using in this exercise include:
+postion, top, left, right, order, display, justify-content, and z-index. */
+
+
+#green-froggie {
+  position: absolute;
+  left: 553px;
+  top: 1042px;
+}
+
+#pro-one {
+
+}
+
+#red-froggie {
+  position: static;
+}
+
+#gold-froggie {
+  position: fixed;
+  top: 150px;
+  left: 1561px;
+  z-index: 9999;
+}
+
+#rel-lily-pad {
+  position: relative;
+  top: 379px;
+  left: 86px;
+}
+
+.flexbox-frogs-1 {
+  display: inline-flex;
+}
+
+.flexbox-frogs-2 {
+  justify-content: space-between;
+
+}
+
+#unhappy-green {
+flex-direction: row;
+order: 3;
+}
+
+#happy-red {
+ flex-direction: row;
+ order: 2;
+}
+
+#unhappy-purple {
+  flex-direction: row;
+  order: 1;
+
+}
