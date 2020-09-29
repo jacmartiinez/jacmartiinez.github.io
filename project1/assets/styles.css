@@ -93,15 +93,15 @@ p {
 button {
   position: absolute;
   top: 550px;
-  margin-left: 400px
-
+  margin-left: 400px;
+  z-index: 99999;
 }
 
 .letter-analysis {
   position: absolute;
-  top: -60px;
-  left: -9px;
-  width: 134%;
+    top: 258px;
+    right: 257px;
+    width: 43%;
 }
 
 .historical-paragraph {
@@ -129,4 +129,16 @@ button {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
+}
+
+#letter-analysis {
+  opacity: 0;
+  position: absolute;
+  width: 508px;
+  top: 259px;
+  left: 448px;
+}
+
+#letter-analysis.visible {
+  opacity: 1;
 }
