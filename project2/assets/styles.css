@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+section div.left-column {
+  width: 100vw;
+  background-color: yellow;
+}
+
+section div.right-column {
+  width: 100vw;
+  background-color: green;
+}
+
+section.homepage-header {
+  color: yellow;
+}
+
+section.about {
+  display: flex;
+}
+
+section.the-greenbrier-hotel {
+  display: flex;
+}
+
+section.hollywood-regency {
+  display: flex;
+}
+
+section.other-works {
+  display: flex;
+}
+
+nav a {
+  width: 100%;
+  background-color: pink;
+  justify-content: space-between;
+}
