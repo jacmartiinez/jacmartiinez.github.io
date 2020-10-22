@@ -1,5 +1,7 @@
 body {
-  background-color: black;
+  background-color: white;
+  width: 1024px;
+  height: 768px;
 }
 
 section {
@@ -11,35 +13,62 @@ section {
 section div.left-column {
   width: 100vw;
   background-color: yellow;
+  margin-bottom: 25px;
 }
 
 section div.right-column {
   width: 100vw;
-  background-color: green;
+  background-color: #01AB98;
+  margin-bottom: 25px;
 }
 
-section.homepage-header {
-  color: yellow;
+.homepage-header {
+  color: #E0184E;
+  background-color: #F8E7D0;
+  font-size: 120px;
+  position: relative;
+  margin-bottom: 50px;
 }
 
-section.about {
+.about {
   display: flex;
 }
 
-section.the-greenbrier-hotel {
+.the-greenbrier-hotel {
   display: flex;
 }
 
-section.hollywood-regency {
+.hollywood-regency {
   display: flex;
 }
 
-section.other-works {
+.other-works {
   display: flex;
 }
 
 nav a {
-  width: 100%;
-  background-color: pink;
+  height: 65px;
+  color: #BABABA;
+  background-color: black;
   justify-content: space-between;
+}
+
+h2 {
+  color: #E0184E;
+  font-size: 80px;
+  position: relative;
+  top: 200px;
+}
+
+p {
+  color: black;
+  font-size: 25px;
+  position: relative;
+  top: 300px;
+}
+
+h1 {
+  position:relative;
+  top: 290px;
+  left: 290px;
 }
