@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  width: 1024px;
+  width: 100vwpx;
   height: 768px;
 }
 
@@ -28,6 +28,7 @@ section div.right-column {
   font-size: 120px;
   position: relative;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .about {
@@ -49,14 +50,15 @@ section div.right-column {
 nav {
   background-color: black;
   height: 65px;
-  width: 1024px;
+  width: 100vw;
 }
 
 nav a{
   color: #BABABA;
-  justify-content: space-between;
   font-size: 40px;
+  margin: 50px;
 }
+
 h2 {
   color: #E0184E;
   font-size: 80px;
@@ -80,7 +82,7 @@ p {
 }
 
 h1 {
-  position:relative;
-  top: 290px;
+  position:absolute;
+  top: 250px;
   left: 290px;
 }
