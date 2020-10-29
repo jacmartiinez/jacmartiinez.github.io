@@ -46,13 +46,17 @@ section div.right-column {
   display: flex;
 }
 
-nav a {
-  width: 100%;
-  color: #BABABA;
+nav {
   background-color: black;
-  justify-content: space-between;
+  height: 65px;
+  width: 1024px;
 }
 
+nav a{
+  color: #BABABA;
+  justify-content: space-between;
+  font-size: 40px;
+}
 h2 {
   color: #E0184E;
   font-size: 80px;
