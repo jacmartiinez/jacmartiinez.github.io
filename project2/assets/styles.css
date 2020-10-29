@@ -47,7 +47,7 @@ section div.right-column {
 }
 
 nav a {
-  height: 65px;
+  width: 100%;
   color: #BABABA;
   background-color: black;
   justify-content: space-between;
@@ -62,9 +62,17 @@ h2 {
 
 p {
   color: black;
-  font-size: 25px;
+  font-size: 50px;
   position: relative;
   top: 300px;
+  background-color: white;
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
 }
 
 h1 {
