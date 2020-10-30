@@ -1,0 +1,143 @@
+body {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+}
+
+.homepage-header {
+  color: #E0184E;
+  background-image: url("/Users/jacquelinemartinez/Documents/GitHub/jacmartiinez.github.io/project2/interiordesign_dorothydraper/assets/wallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 120px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+}
+
+.the-greenbrier-hotel {
+  display: flex;
+}
+
+.hollywood-regency {
+  display: flex;
+}
+
+.other-works {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: left;
+  height: 65px;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.full-width-nav {
+  background-color: black;
+  color: #BABABA;
+  width: 100vw;
+}
+nav a{
+  font-family: tangerine,sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  color: #BABABA;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 0px;
+  padding: 0, auto;
+  top: 16px;
+  display: inline-block;
+  justify-content:center;
+  text-align:center;
+  width: 20%;
+}
+
+nav a:hover{
+  background-color: #446E50;
+}
+
+h2{
+  color: #E0184E;
+  font-family: tangerine,sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 80px;
+  position: relative;
+  bottom:100px;
+  left: 87px;
+}
+
+h3 {
+  color: #E0184E;
+  font-family: tangerine,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+}
+
+p {
+  font-family: myriad-pro,sans-serif;
+  font-weight: 400px;
+  font-style:normal;
+  color: black;
+  font-size: 28px;
+  position: relative;
+  top: 326px;
+  background-color: white;
+  display: flex;
+  justify-content:flex-end;
+  left: 87px;
+  text-align: right;
+}
+
+hr {
+  top: 282.5px;
+  left: 84.5px;
+  width: 428px;
+  height: 0px;
+
+}
+
+h1 {
+  background-color: white;
+  width: 851px;
+  height: 176px;
+  top: 283px;
+  left: 84px;
+  font-size: 162px;
+  justify-content: center;
+  font-family: youngblood,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#home.active,
+#about.active,
+#the-greenbrier-hotel.active,
+#hollywood-regency.active,
+#other-works.active {
+  background-color: #446E50;
+}
+
+section div.dorothy1 {
+  top: 0px;
+  left: 586px;
+  width: 438px;
+  height: 768px;
+}
