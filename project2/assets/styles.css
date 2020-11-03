@@ -1,23 +1,22 @@
 body {
   background-color: white;
-  width: 100vwpx;
+  background-image: url(jacmartiinez.github.io/project2/interiordesign_dorothydraper/assets/wallpaper.jpg);
+  width: 1024px;
   height: 768px;
 }
 
 section {
-  height: 100vh;
-  width: 100vw;
   justify-content: space-between;
 }
 
 section div.left-column {
-  width: 100vw;
   background-color: yellow;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-bottom: 25px;
 }
 
 section div.right-column {
-  width: 100vw;
   background-color: #01AB98;
   margin-bottom: 25px;
 }
