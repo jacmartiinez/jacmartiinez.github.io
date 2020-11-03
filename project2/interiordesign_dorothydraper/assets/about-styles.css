@@ -5,15 +5,36 @@ body {
 }
 
 nav {
-  background-color: black;
+  display: flex;
+  justify-content: left;
   height: 65px;
   width: 100vw;
+  margin: 0 auto;
 }
 
-nav a{
+.full-width-nav {
+  background-color: black;
   color: #BABABA;
+  width: 100vw;
+}
+nav a{
+  font-family: tangerine,sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  color: #BABABA;
+  text-decoration: none;
   font-size: 40px;
-  margin: 50px;
+  margin: 0px;
+  padding: 0, auto;
+  top: 16px;
+  display: inline-block;
+  justify-content:center;
+  text-align:center;
+  width: 20%;
+}
+
+nav a:hover{
+  background-color: #446E50;
 }
 
 .header-body-image {
