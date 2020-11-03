@@ -39,29 +39,13 @@ nav a:hover{
   height: 75px;
 }
 
-.header-body-image {
-  display: flex;
-  margin: 25px;
-  position: absolute;
-  justify-content: center;
-}
-
-
-section div.image {
-  position: absolute;
-  top: 151px;
-  left: 751px;
-  width: 184;
-  height: 360px;
-}
-
 h1 {
   color: #E0184E;
   font-family: tangerine,sans-serif;
   font-weight: 400px;
   font-style: normal;
   font-size: 80px;
-  top: 234px;
+  top: 154px;
   left: 84px;
 }
 
@@ -72,12 +56,11 @@ p {
   color: black;
   font-size: 20px;
   top: 10px;
-  background-color: white;
   text-align: left;
-  left:84px;
-  top: 234px;
-  width: 595px;
-  height: 245px;
+  left:87px;
+  top: 267px;
+  width: 851px;
+  height: 137px;
   position: absolute;
 }
 
@@ -88,6 +71,7 @@ h2 {
   font-weight: normal;
   font-size: 18px;
   top: 10px;
+  background-color: white;
   text-align: right;
   left:424px;
   top: 571px;
@@ -96,14 +80,12 @@ h2 {
   position: absolute;
 }
 
-
-.embeded-video {
+section div.image {
   display: flex;
   position: absolute;
-}
-
-section div.video{
-  position: absolute;
-  top: 565px;
+  top: 437px;
   left: 84px;
+  width: 851px;
+  height: 197px;
+  justify-content: space-between;
 }

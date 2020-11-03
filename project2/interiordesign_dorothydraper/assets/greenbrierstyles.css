@@ -38,21 +38,21 @@ nav a:hover{
   background-color: #446E50;
   height: 75px;
 }
-
+/*
 .header-body-image {
   display: flex;
   margin: 25px;
   position: absolute;
   justify-content: center;
-}
+}*/
 
 
 section div.image {
   position: absolute;
-  top: 151px;
-  left: 751px;
-  width: 184;
-  height: 360px;
+  top: 384px;
+  left: 26px;
+  width: 972px;
+  height: 143px;
 }
 
 h1 {
@@ -100,6 +100,10 @@ h2 {
 .embeded-video {
   display: flex;
   position: absolute;
+  width: 765px;
+  height: 130px;
+  top: 586px;
+  left: 84px;
 }
 
 section div.video{
