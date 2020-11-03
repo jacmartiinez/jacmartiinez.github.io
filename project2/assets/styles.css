@@ -5,19 +5,18 @@ body {
   height: 768px;
 }
 
+
 section {
   justify-content: space-between;
 }
 
 section div.left-column {
-  background-color: yellow;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 25px;
 }
 
 section div.right-column {
-  background-color: #01AB98;
   margin-bottom: 25px;
 }
 

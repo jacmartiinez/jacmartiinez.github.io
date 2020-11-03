@@ -1,18 +1,18 @@
 body {
   background-color: white;
-  width: 100vw;
-  height: 100vh;
+  width: 1024px;
+  height: 768px;
 }
-
+/*
 section {
   height: 100vh;
   width: 100vw;
-}
+}*/
 
 .homepage-header {
   position: relative;
   color: #E0184E;
-  background-image: url("/Users/jacquelinemartinez/Documents/GitHub/jacmartiinez.github.io/project2/interiordesign_dorothydraper/assets/wallpaper.jpg");
+  background-image: url("jacmartiinez.github.io/project2/interiordesign_dorothydraper/assets/wallpaper.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
