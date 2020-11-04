@@ -1,0 +1,91 @@
+body {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: left;
+  height: 75px;
+  width: 100vw;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.full-width-nav {
+  width: 100vw;
+  background-color: black;
+  color: #BABABA;
+}
+nav a{
+  font-family: tangerine,sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  color: #BABABA;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 0px;
+  padding: 0, auto;
+  top: 16px;
+  display: inline-block;
+  justify-content:center;
+  text-align:center;
+  width: 20%;
+}
+
+nav a:hover{
+  background-color: #446E50;
+  height: 75px;
+}
+
+h1 {
+  color: #E0184E;
+  font-family: tangerine,sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 80px;
+  top: 154px;
+  left: 84px;
+}
+
+p {
+  font-family: myriad-pro,sans-serif;
+  font-style:normal;
+  font-weight: normal;
+  color: black;
+  font-size: 20px;
+  top: 10px;
+  text-align: left;
+  left:87px;
+  top: 267px;
+  width: 851px;
+  height: 137px;
+  position: absolute;
+}
+
+h2 {
+  font-family: myriad-pro,sans-serif;
+  font-style:normal;
+  color: black;
+  font-weight: normal;
+  font-size: 18px;
+  top: 10px;
+  background-color: white;
+  text-align: right;
+  left:424px;
+  top: 571px;
+  width: 511px;
+  height: 118px;
+  position: absolute;
+}
+
+section div.image {
+  display: flex;
+  position: absolute;
+  top: 437px;
+  left: 84px;
+  width: 851px;
+  height: 197px;
+  justify-content: space-between;
+}
