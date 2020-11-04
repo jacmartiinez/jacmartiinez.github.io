@@ -55,37 +55,33 @@ p {
   font-weight: normal;
   color: black;
   font-size: 20px;
-  top: 10px;
+/*  top: 10px;*/
   text-align: left;
-  left:87px;
-  top: 267px;
+  left:84px;
+  top: 224px;
   width: 851px;
   height: 137px;
   position: absolute;
 }
 
-h2 {
-  font-family: myriad-pro,sans-serif;
-  font-style:normal;
-  color: black;
-  font-weight: normal;
-  font-size: 18px;
-  top: 10px;
-  background-color: white;
-  text-align: right;
-  left:424px;
-  top: 571px;
-  width: 511px;
-  height: 118px;
-  position: absolute;
-}
-
-section div.image {
+section div.image-block1 {
   display: flex;
   position: absolute;
-  top: 437px;
+  top: 385px;
   left: 84px;
   width: 851px;
-  height: 197px;
+  height: 139px;
   justify-content: space-between;
+  align-items: center;
+}
+
+section div.image-block2 {
+  display: flex;
+  position: absolute;
+  top: 585px;
+  left: 84px;
+  width: 851px;
+  height: 151px;
+  justify-content: space-between;
+  align-items: center;
 }

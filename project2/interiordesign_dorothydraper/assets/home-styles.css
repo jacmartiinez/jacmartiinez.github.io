@@ -1,7 +1,7 @@
 body {
   background-color: white;
   width: 100vw;
-  height: 100vh;
+  height:3840px;
 }
 
 section {
@@ -11,7 +11,7 @@ section {
 }
 
 .homepage-header {
-  position: relative;
+  position: absolute;
   color: #E0184E;
   background-image: url("assets/wallpaper.jpg");
   background-position: center;
@@ -26,22 +26,27 @@ section {
 
 .about {
   display: flex;
-  position: relative;
+  position: absolute;
+  height: 100vh;
+  top: 1536px;
 }
 
 .the-greenbrier-hotel {
   display: flex;
-  position: relative;
+  position: absolute;
+  top: 2340px;
 }
 
 .hollywood-regency {
   display: flex;
-  position: relative;
+  position: absolute;
+  top: 3072px;
 }
 
 .other-works {
   display: flex;
-  position: relative;
+  position: absolute;
+  top: 3840px;
 }
 
 nav {
@@ -50,6 +55,7 @@ nav {
   height: 75px;
   width: 100vw;
   margin: 0 auto;
+  align-items: center;
 }
 
 .full-width-nav {
@@ -75,6 +81,7 @@ nav a{
 
 nav a:hover{
   background-color: #446E50;
+  height: 75px;
 }
 
 h2{
@@ -137,7 +144,7 @@ h1 {
   background-color: #446E50;
 }
 
-section div.dorothy1 {
+section div.about-right-column {
   top: 0px;
   left: 586px;
   width: 100vw;
