@@ -1,10 +1,11 @@
 body {
   background-color: white;
-  width: 1024px;
-  height: 768px;
+  width: 100vw;
+  height: 100vh;
 }
 
 section {
+  position: absolute;
   height: 100vh;
   width: 100vw;
 }
@@ -12,7 +13,7 @@ section {
 .homepage-header {
   position: relative;
   color: #E0184E;
-  background-image: url("jacmartiinez.github.io/project2/interiordesign_dorothydraper/assets/wallpaper.jpg");
+  background-image: url("assets/wallpaper.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
