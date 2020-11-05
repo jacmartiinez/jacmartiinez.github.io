@@ -12,6 +12,8 @@
 
 <body>
 
+<button onclick="topFunction()" id="button" title="Back to Top">Back to top</button>
+
 <div class="full-width-nav">
   <nav>
     <a id="home"href="home.html">Home</a>
@@ -30,7 +32,7 @@
     <section class="about">
       <div class="about-left-column">
         <h2>About</h2>
-        <hr>
+        <hr width="80%vw" top="282.5" right="84">
         <p>“You don’t sell a commodity, you sell joy,gaiety,
           excitement.You aim at people’s hearts, not their minds”
           <br><br>
@@ -57,7 +59,7 @@
           history in every detail”
           <br><br>
           - The Greenbrier America’s Resort</p>
-          <a id="the-greenbrier-hotel" href="the-greenbrier-hotel.html">The Greenbrier Hotel</a>
+          <a id="the-greenbrier-hotel" href="the-greenbrier-hotel.html">Read more</a>
       </div>
     </section>
 
@@ -66,7 +68,7 @@
       <h2>Hollywood Regency</h2>
       <p>Decor that embraces the bold use of color and contrast often with
          metallic and glass accents.</p>
-         <a id="hollywood-regency" href="hollywood-regency.html">Hollywood Regency</a>
+         <a id="hollywood-regency" href="hollywood-regency.html">Read more</a>
       </div>
 
       <div class="hollywood-regency-right-column">
@@ -86,32 +88,11 @@
            Camellia House<br>
            Esexx House<br>
            The Metropolitan Museum of Art Restaurant</p>
-           <a id="other-works" href="other-works.html">Other Works</a>
+           <a id="other-works" href="other-works.html">Read more</a>
       </div>
     </section>
 
-    <button onclick="topFunction()" id="button" title="Back to Top">Back to top</button>
 
-    <script>
-    var button=document.getElementById("button");
-
-    window.onscroll=funtion()
-    {scrollFuntion()};
-
-    function scrollFuntion() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        button.style.display = "block";
-      } else {
-        button.style.display = "none";
-      }
-    }
-
-    funtion topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-
-</script>
 </body>
 
 </html>

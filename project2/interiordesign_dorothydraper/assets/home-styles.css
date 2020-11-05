@@ -13,8 +13,8 @@ section {
 .homepage-header {
   position: absolute;
   color: #E0184E;
-  background-image: url("assets/wallpaper.jpg");
-  background-position: center;
+  background-image: url("wallpaper.jpg");
+  background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 120px;
@@ -27,8 +27,7 @@ section {
 .about {
   display: flex;
   position: absolute;
-  height: 100vh;
-  top: 1536px;
+  top: 900px;
 }
 
 .the-greenbrier-hotel {
@@ -52,7 +51,6 @@ section {
 nav {
   display: flex;
   justify-content: left;
-  height: 75px;
   width: 100vw;
   margin: 0 auto;
   align-items: center;
@@ -71,27 +69,30 @@ nav a{
   text-decoration: none;
   font-size: 40px;
   margin: 0px;
-  padding: 0, auto;
+  padding-top: 17px;
+  padding-bottom: 17px;
   top: 16px;
-  display: inline-block;
-  justify-content:center;
   text-align:center;
   width: 20%;
 }
 
 nav a:hover{
   background-color: #446E50;
+  color: #BABABA;
+  font-size: 40px;
   height: 75px;
 }
 
 h2{
+  justify-content: center;
+  align-items: center;
   color: #E0184E;
   font-family: tangerine,sans-serif;
   font-weight: 400px;
-  font-style: normal;
+  font-style:normal;
   font-size: 80px;
-  top: 80px;
-  left: 140px;
+  /*top: 80px;
+  left: 140px;*/
 }
 
 a {
@@ -104,6 +105,17 @@ a {
   right: 40px;
 }
 
+a:hover {
+  color: #397C7F;
+  background-color: #ECF3F8;
+  border-radius: 12px;
+  font-family: tangerine,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  top: 561px;
+  right: 40px;
+}
 p {
   font-family: myriad-pro,sans-serif;
   font-weight: 400px;
@@ -116,19 +128,11 @@ p {
   text-align: right;
 }
 
-hr {
-  top: 6.5px;
-  left: 84.5px;
-  width: 480px;
-  height: 0px;
-}
-
 h1 {
+  position: absolute;
   background-color: white;
   width: 851px;
   height: 176px;
-  top: 283px;
-  left: 84px;
   font-size: 162px;
   justify-content: center;
   font-family: youngblood,sans-serif;
@@ -144,33 +148,6 @@ h1 {
   background-color: #446E50;
 }
 
-section div.about-right-column {
-  top: 0px;
-  left: 586px;
-  width: 100vw;
-  height: 100vh;
-}
-
-section div.the-greenbrier1 {
-  top: 0px;
-  left: 0px;
-  width: 100vw;
-  height: 100vh;
-}
-
-section div.hollywood1{
-  top: 0px;
-  width: 100vw;
-  height: 100vh;
-}
-
-section div.other1 {
-  top: 0px;
-  left: 0px;
-  width: 100vw;
-  height: 100vh;
-}
-
 #button {
   font-family: tangerine,sans-serif;
   font-weight: 400px;
@@ -178,7 +155,7 @@ section div.other1 {
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  left: 30px;
   z-index: 99;
   font-size: 20px;
   border: none;
@@ -190,9 +167,7 @@ section div.other1 {
   border-radius: 4px;
 }
 
-#button-hover {
+#button:hover {
   background-color: #D7E5F0;
   color: #397C7F;
 }
-
-#
