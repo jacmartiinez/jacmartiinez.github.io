@@ -7,7 +7,6 @@ body {
 nav {
   display: flex;
   justify-content: left;
-  height: 75px;
   width: 100vw;
   margin: 0 auto;
   align-items: center;
@@ -26,26 +25,19 @@ nav a{
   text-decoration: none;
   font-size: 40px;
   margin: 0px;
-  padding: 0, auto;
+  padding-top: 17px;
+  padding-bottom: 17px;
   top: 16px;
-  display: inline-block;
-  justify-content:center;
   text-align:center;
   width: 20%;
 }
 
 nav a:hover{
   background-color: #446E50;
+  color: #BABABA;
+  font-size: 40px;
   height: 75px;
 }
-/*
-.header-body-image {
-  display: flex;
-  margin: 25px;
-  position: absolute;
-  justify-content: center;
-}*/
-
 
 section div.image {
   position: absolute;
