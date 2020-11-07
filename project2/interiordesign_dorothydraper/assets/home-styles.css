@@ -107,6 +107,26 @@ a {
   text-align: right;
 }
 
+a#about_readmore {
+  display: block;
+  margin-right: 80px;
+}
+
+a#the-grenbrier_readmore {
+  display: block;
+  margin-right: 80px;
+}
+
+a#hregency_readmore {
+  display: block;
+  margin-right: 80px;
+}
+
+a#other_readmore {
+  display: block;
+  margin-right: 80px;
+}
+
 a:hover {
   color: #397C7F;
   background-color: #ECF3F8;
@@ -150,7 +170,7 @@ h1 {
   background-color: #446E50;
 }
 
-button {
+#myBtn {
   font-family: tangerine,sans-serif;
   font-weight: 400px;
   font-style: normal;
@@ -169,7 +189,7 @@ button {
   border-radius: 4px;
 }
 
-#button:hover {
+#myBtn:hover {
   background-color: #D7E5F0;
   color: #397C7F;
 }

@@ -6,13 +6,12 @@
   <title>Inteior Design</title>
   <link rel="stylesheet" href="https://use.typekit.net/sri1zzy.css">
   <link rel="stylesheet" href="assets/home-styles.css">
-  <script type="text/javascript" src="assets/toggle.js"></script>
 
 </head>
 
 <body>
 
-<button onclick="topFunction()" id="button" title="Back to Top">Back to top</button>
+<button onclick="topFunction()" id="myBtn" title="Back to Top">Back to top</button>
 
 <div class="full-width-nav">
   <nav>
@@ -38,7 +37,7 @@
           <br><br>
 
          - Dorothy Draper</p><br>
-          <a id="about"href="about.html">Read more</a>
+          <a id="about_readmore"href="about.html">Read more</a>
       </div>
 
       <div class="about-right-column">
@@ -60,7 +59,7 @@
           history in every detail”
           <br><br>
           - The Greenbrier America’s Resort</p>
-          <a id="the-greenbrier-hotel" href="the-greenbrier-hotel.html">Read more</a>
+          <a id="the-greenbrier_readmore" href="the-greenbrier-hotel.html">Read more</a>
       </div>
     </section>
 
@@ -70,7 +69,7 @@
       <hr width="80%vw" top="282.5" right="84">
       <p>Decor that embraces the bold use of color and contrast often with
          metallic and glass accents.</p>
-         <a id="hollywood-regency" href="hollywood-regency.html">Read more</a>
+         <a id="hregency_readmore" href="hollywood-regency.html">Read more</a>
       </div>
 
       <div class="hollywood-regency-right-column">
@@ -91,10 +90,31 @@
            Camellia House<br>
            Esexx House<br>
            The Metropolitan Museum of Art Restaurant</p>
-           <a id="other-works" href="other-works.html">Read more</a>
+           <a id="other_readmore" href="other-works.html">Read more</a>
       </div>
     </section>
 
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
 
 </body>
 
