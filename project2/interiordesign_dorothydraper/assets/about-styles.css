@@ -62,7 +62,7 @@ h1 {
   font-style: normal;
   font-size: 80px;
   top: 234px;
-  left: 84px;
+  margin-left: 84px;
 }
 
 p {
@@ -79,6 +79,7 @@ p {
   width: 595px;
   height: 245px;
   position: absolute;
+  line-height: 35px;
 }
 
 h2 {
@@ -100,6 +101,9 @@ h2 {
 .embeded-video {
   display: flex;
   position: absolute;
+  margin-left: 84px;
+  margin-top: 50px;
+  margin-bottom: 90px;
 }
 
 section div.video{

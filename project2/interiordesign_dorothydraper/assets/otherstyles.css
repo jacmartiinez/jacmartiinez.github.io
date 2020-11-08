@@ -40,13 +40,14 @@ nav a:hover{
 }
 
 h1 {
+  position: absolute;
   color: #E0184E;
   font-family: tangerine,sans-serif;
   font-weight: 400px;
   font-style: normal;
   font-size: 80px;
-  top: 154px;
-  left: 84px;
+  top: 75px;
+  margin-left: 84px;
 }
 
 p {
@@ -55,19 +56,19 @@ p {
   font-weight: normal;
   color: black;
   font-size: 20px;
-/*  top: 10px;*/
   text-align: left;
   left:84px;
   top: 224px;
   width: 851px;
   height: 137px;
   position: absolute;
+  line-height: 35px;
 }
 
 section div.image-block1 {
   display: flex;
   position: absolute;
-  top: 385px;
+  top: 800px;
   left: 84px;
   width: 851px;
   height: 139px;
@@ -78,7 +79,7 @@ section div.image-block1 {
 section div.image-block2 {
   display: flex;
   position: absolute;
-  top: 585px;
+  top: 1000px;
   left: 84px;
   width: 851px;
   height: 151px;

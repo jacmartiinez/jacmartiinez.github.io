@@ -40,13 +40,15 @@ nav a:hover{
 }
 
 h1 {
+  position: absolute;
   color: #E0184E;
   font-family: tangerine,sans-serif;
   font-weight: 400px;
   font-style: normal;
   font-size: 80px;
-  top: 154px;
-  left: 84px;
+  top: 100px;
+  margin-left: 84px;
+  margin-bottom: 50px;
 }
 
 p {
@@ -62,28 +64,15 @@ p {
   width: 851px;
   height: 137px;
   position: absolute;
-}
-
-h2 {
-  font-family: myriad-pro,sans-serif;
-  font-style:normal;
-  color: black;
-  font-weight: normal;
-  font-size: 18px;
-  top: 10px;
-  background-color: white;
-  text-align: right;
-  left:424px;
-  top: 571px;
-  width: 511px;
-  height: 118px;
-  position: absolute;
+  align-content: 100vw;
+  line-height: 35px;
 }
 
 section div.image {
   display: flex;
   position: absolute;
-  top: 437px;
+  top: 650px;
+  margin-bottom: 50px;
   left: 84px;
   width: 851px;
   height: 197px;

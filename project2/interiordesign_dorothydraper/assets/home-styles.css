@@ -27,6 +27,7 @@ section {
 .about {
   display: flex;
   position: absolute;
+  justify-content: space-between;
   top: 1024px;
   margin-top: 50px;
 }
@@ -34,6 +35,7 @@ section {
 .the-greenbrier-hotel {
   display: flex;
   position: absolute;
+  justify-content: space-between;
   top: 2000px;
   margin-top: 50px;
 }
@@ -41,6 +43,7 @@ section {
 .hollywood-regency {
   display: flex;
   position: absolute;
+  justify-content: space-between;
   top: 3000px;
   margin-top: 50px;
 }
@@ -48,6 +51,7 @@ section {
 .other-works {
   display: flex;
   position: absolute;
+  justify-content: space-between;
   top: 3840px;
   margin-top: 50px;
 }
@@ -112,7 +116,7 @@ a#about_readmore {
   margin-right: 80px;
 }
 
-a#the-grenbrier_readmore {
+a#the-greenbrier_readmore {
   display: block;
   margin-right: 80px;
 }
@@ -132,7 +136,6 @@ a:hover {
   background-color: #ECF3F8;
   border-radius: 12px;
   font-family: tangerine,sans-serif;
-  font-weight: 400;
   font-style: normal;
   font-size: 28px;
   top: 561px;
@@ -192,4 +195,6 @@ h1 {
 #myBtn:hover {
   background-color: #D7E5F0;
   color: #397C7F;
+  font-size: 30px;
+  font-weight: bold;
 }

@@ -41,20 +41,22 @@ nav a:hover{
 
 section div.image {
   position: absolute;
-  top: 384px;
+  top: 520px;
+  margin-bottom: 200px;
   left: 26px;
-  width: 972px;
+  width: 100vw;
   height: 143px;
 }
 
 h1 {
+  position: absolute;
   color: #E0184E;
   font-family: tangerine,sans-serif;
   font-weight: 400px;
   font-style: normal;
   font-size: 80px;
-  top: 234px;
-  left: 84px;
+  top: 90px;
+  margin-left: 84px;
 }
 
 p {
@@ -68,9 +70,10 @@ p {
   text-align: left;
   left:84px;
   top: 234px;
-  width: 595px;
-  height: 245px;
+  width: 900px;
+  height: 2px;
   position: absolute;
+  line-height: 35px;
 }
 
 h2 {
@@ -79,7 +82,6 @@ h2 {
   color: black;
   font-weight: normal;
   font-size: 18px;
-  top: 10px;
   text-align: right;
   left:424px;
   top: 571px;
@@ -91,15 +93,14 @@ h2 {
 
 .embeded-video {
   display: flex;
+  justify-content: space-between;
   position: absolute;
-  width: 765px;
-  height: 130px;
-  top: 586px;
-  left: 84px;
+  top: 200px;
 }
 
 section div.video{
   position: absolute;
   top: 565px;
   left: 84px;
+  margin-bottom: 70px;
 }
