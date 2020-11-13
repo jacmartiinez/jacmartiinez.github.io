@@ -75,7 +75,6 @@ h2 {
   background-color: #2A1F47;
 }
 
-.link-5,
 .link-4 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -85,6 +84,28 @@ h2 {
   border-style: outset;
   background-color: #2A1F47;
 }
+
+.link-5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-color: #FFFFFF;
+  border-style: outset;
+  background-color: #2A1F47;
+}
+
+.link-6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-color: #FFFFFF;
+  border-style: outset;
+  background-color: #2A1F47;
+}
+
+
 
 .flower-image {
   display: flex;
