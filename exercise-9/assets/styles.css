@@ -20,7 +20,7 @@ header {
 }
 
 footer {
-  background-color:#3B9000;
+  background-image: linear-gradient(150deg, white, #3B9000, white);
   color:#ffffff;
   text-align: center;
 }
