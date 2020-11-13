@@ -1,0 +1,110 @@
+/* This is the stylesheet for Exercise 9 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  color: #000000;
+  font-size: 18px;
+  font-family: 'Merriweather', serif;
+  line-height: 35px;
+}
+header {
+  background-color: #DDD1F6;
+  color:#000000;
+  text-align:center;
+  font-family: grafolita-script,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+footer {
+  background-color:#3B9000;
+  color:#ffffff;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+footer img {
+  width: 5%;
+}
+
+h3{
+  font-style: normal;
+  font-size: 10px;
+}
+
+
+/********** Media Queries *************/
+
+/* Tablet Styles */
+@media screen and (min-width:350px){
+  body{
+    font-size: 18px;
+    color: black;
+    padding: 30px;
+    line-height: 45px;
+  }
+
+  footer {
+  line-height: 33px;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+/* Desktop Styles */
+@media screen and (min-width:1075px) {
+
+  section {
+    margin: 0 auto;
+  }
+
+  p {
+    font-size: 1.5em;
+    line-height: 45px;
+    margin-bottom: 10px;
+  }
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row img,
+.row p {
+  width: 45%;
+  display: flex;
+}
+
+.row img {
+  align-self: flex-start;
+}
+
+.row h3{
+  align-self: flex-start;
+
+
+}
+
+footer{
+  display: block;
+  text-align: center;
+}
+
+}
