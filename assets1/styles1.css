@@ -105,6 +105,15 @@ h2 {
   background-color: #2A1F47;
 }
 
+.link-7 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-color: #FFFFFF;
+  border-style: outset;
+  background-color: #2A1F47;
+}
 
 
 .flower-image {
