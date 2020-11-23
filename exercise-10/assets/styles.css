@@ -213,8 +213,56 @@ h4 {
 @media screen and (min-width:1025px) {
 
   .blue-box{
+    display: none;
+  }
+
+  .about {
+    display: none;
+  }
+
+  .blue-box-2{
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: contents;
     background-color: #00436E;
-    height: 120px;
+    height: 200px;
     width: 100vw;
+    display: flex;
+  }
+
+  .about-2 {
+    margin-left:10px;
+    margin-right: 10px;
+  }
+
+  .about-2 h1 {
+    font-style: italic;
+  }
+  body {
+      font-family: roboto,sans-serif;
+      font-weight: 400;
+      font-style:normal;
+      width: 100vw;
+  }
+
+  .fa-instagram-2 {
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+    margin-top: 6px;
+  }
+
+  .fa-envelope-2{
+    color: white;
+    margin-right: 5px;
+    margin-top: 6px;
+
+  }
+
+  .fa-phone-alt-2{
+    color: white;
+    margin-right: 5px;
+    margin-top: 6px;
   }
 }
