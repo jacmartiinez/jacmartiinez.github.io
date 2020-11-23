@@ -1,0 +1,220 @@
+/* External Stylesheet for Exercise 10: Responsive Resume Design */
+
+/* REMINDER — CODE MOBILE FIRST! The code needed to display your design on a tablet or desktop should be handled using MEDIA QUERIES */
+
+* {
+  margin:0px;
+  padding:0px;
+}
+
+body {
+  font-family: roboto,sans-serif;
+  font-weight: 400;
+  font-style:normal;
+  width: 100vw;
+}
+.blue-box{
+  background-color: #00436E;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-instagram {
+  text-decoration: none;
+  color: white;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+
+.fa-envelope{
+  color: white;
+  margin-right: 5px;
+  margin-top: 6px;
+
+}
+
+.fa-phone-alt{
+  color: white;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+
+.personal-info {
+  color: white;
+  margin-left: 20px;
+  line-height: 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.phone,
+.instagram,
+.mail {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  font-size: 9px;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+}
+
+.spanish,
+.english,
+.travel,
+.family,
+.photography {
+  display: flex;
+}
+
+h1 {
+  font-size: 13px;
+}
+
+h2 {
+  font-size: 9px;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+h4 {
+  font-size: 12px;
+  font-family: roboto,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.about h1{
+  color: white;
+  background-color: #329FB9;
+  height: 21px;
+  text-align: center;
+}
+
+.work h1 {
+  color: white;
+  background-color: #329FB9;
+  height: 21px;
+  text-align: center;
+}
+
+.education h1{
+  color: white;
+  background-color: #329FB9;
+  height: 21px;
+  text-align: center;
+}
+
+.languages h1{
+  color: white;
+  background-color: #329FB9;
+  width: 90px;
+  height: 21px;
+  text-align: center;
+}
+
+.interests h1{
+  color: white;
+  background-color: #329FB9;
+  width: 90px;
+  height: 21px;
+  text-align: center;
+}
+
+.references h1{
+  color: white;
+  background-color: #329FB9;
+  width: 130px;
+  height: 21px;
+  text-align: center;
+}
+
+.bodycopy {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.lir {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blue-box-2 {
+  display: none;
+}
+/* ********** MEDIA QUERIES ********************* */
+
+/* Tablet Design */
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+  .blue-box{
+    display: none;
+  }
+
+  .about {
+    display: none;
+  }
+
+  .blue-box-2{
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: contents;
+    background-color: #00436E;
+    height: 100vh;
+    width: 268px;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .about-2 {
+    margin-left:10px;
+    margin-right: 10px;
+  }
+  body {
+      font-family: roboto,sans-serif;
+      font-weight: 400;
+      font-style:normal;
+      width: 100vw;
+      display: flex;
+  }
+
+  .fa-instagram-2 {
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+    margin-top: 6px;
+  }
+
+  .fa-envelope-2{
+    color: white;
+    margin-right: 5px;
+    margin-top: 6px;
+
+  }
+
+  .fa-phone-alt-2{
+    color: white;
+    margin-right: 5px;
+    margin-top: 6px;
+  }
+
+}
+
+
+/* Desktop Design */
+@media screen and (min-width:1025px) {
+
+  .blue-box{
+    background-color: #00436E;
+    height: 120px;
+    width: 100vw;
+  }
+}
