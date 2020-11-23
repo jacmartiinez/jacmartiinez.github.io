@@ -223,9 +223,9 @@ h4 {
     margin-top: 10px;
   }
 
-  .phone,
-  .instagram,
-  .mail {
+  .phone-2,
+  .instagram-2,
+  .mail-2 {
     display: flex;
     color: white;
     text-decoration: none;
@@ -309,7 +309,6 @@ h4 {
   .phone-2,
   .instagram-2,
   .mail-2 {
-    display: contents;
     display: flex;
     color: white;
     text-decoration: none;
