@@ -206,6 +206,28 @@ h4 {
     margin-top: 6px;
   }
 
+  .personal-info {
+    color: white;
+    margin-left: 20px;
+    line-height: 20px;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .phone,
+  .instagram,
+  .mail {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 9px;
+  }
+
+  a {
+    text-decoration: underline;
+    color: white;
+  }
+
 }
 
 
@@ -239,6 +261,7 @@ h4 {
   .about-2 h1 {
     font-style: italic;
   }
+
   body {
       font-family: roboto,sans-serif;
       font-weight: 400;
@@ -264,5 +287,27 @@ h4 {
     color: white;
     margin-right: 5px;
     margin-top: 6px;
+  }
+
+  .personal-info-2 {
+    color: white;
+    margin-left: 20px;
+    line-height: 20px;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .phone-2,
+  .instagram-2,
+  .mail-2 {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 9px;
+  }
+
+  .fa-instagram-2 a {
+    text-decoration: underline;
+    color: white;
   }
 }
