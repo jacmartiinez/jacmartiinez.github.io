@@ -73,14 +73,18 @@ a {
 
 h1 {
   font-size: 13px;
+  font-weight: normal;
 }
 
 h2 {
   font-size: 9px;
+  font-weight: normal;
 }
 
 h3 {
   font-size: 12px;
+  font-weight: normal;
+  font-weight: normal;
 }
 
 h4 {
@@ -88,6 +92,7 @@ h4 {
   font-family: roboto,sans-serif;
   font-weight: 700;
   font-style: normal;
+  font-weight: normal;
 }
 
 .about h1{
@@ -176,9 +181,11 @@ h4 {
   }
 
   .about-2 {
+    margin-top: 30px;
     margin-left:10px;
     margin-right: 10px;
   }
+
   body {
       font-family: roboto,sans-serif;
       font-weight: 400;
@@ -198,6 +205,7 @@ h4 {
     color: white;
     margin-right: 5px;
     margin-top: 6px;
+    display: inline;
 
   }
 
@@ -244,10 +252,11 @@ h4 {
   }
 
   .blue-box-2{
+    display: contents;
     color: white;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    display: contents;
     background-color: #00436E;
     height: 200px;
     width: 100vw;
@@ -281,7 +290,6 @@ h4 {
     color: white;
     margin-right: 5px;
     margin-top: 6px;
-
   }
 
   .fa-phone-alt-2{
@@ -308,7 +316,7 @@ h4 {
     font-size: 9px;
   }
 
-  .fa-instagram-2 a {
+  a {
     text-decoration: underline;
     color: white;
   }
